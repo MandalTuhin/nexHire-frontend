@@ -1,6 +1,6 @@
 # Implementation Plan — nexHire Frontend
 
-- [ ] 1. Set up project structure and core configuration
+- [x] 1. Set up project structure and core configuration
   - Scaffold Angular 18 app with standalone components (`ng new nexhire --standalone --routing --style=scss`)
   - Install Angular Material 18 (`ng add @angular/material`) and fast-check (`npm install --save-dev fast-check`)
   - Create folder structure: `src/app/core`, `src/app/shared`, `src/app/features/auth`, `src/app/features/candidate`, `src/app/features/hr`, `src/app/features/admin`
